@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;   
+    background: #537788;
+    color: #e6e0e0;
+}
+
+form {
+    max-width: 260px;
+    margin: 60px auto;
+}
+
+.form-control:focus {
+    border-color: #608698;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #e3e8ef;
+    background-color: #ced9e8;
+    border-color: #93B5C6;
+    color: #608698;
+    margin-left: 8px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: #608698;
+    border-color: #608698;
+    color: #C9CCD5;
+}
+
+img {
+    width: 40px;
+}
+
+.content {   
+    background: #608698;  
+    padding: 15px 25px 25px;
+    border-radius: 25px;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.content h2 {
+    font-size: 70px;
+}
+
+.content p {
+    margin-bottom: 0;
+}
+
+.separator {
+    background: #e6e0e094;
+    height: 1px;
+    width: 100%;
+    max-width: 550px;
+    margin: 32px 10px 16px;
+}
+
+#cityName {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.p-line-height {
+    margin: 5px;
+}
+
+@media screen and (max-width:320px) {
+    #cityName {
+        font-size: 20px;
+    }  
+}
